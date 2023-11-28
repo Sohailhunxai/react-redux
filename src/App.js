@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         {/* <h1>App Component</h1> */}
-        <User />
+        <User data={{ name: 'Sohail Abbas', age: 25 }} />
       </div>
     );
   }
